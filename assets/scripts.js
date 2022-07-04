@@ -34,12 +34,15 @@ var input = document.querySelector("#name");
 
 function saveValue(a) {
   a.preventdefault()
-  input.style.text-decoration; 
-    
+  const inputField = document.getElementById('name');    
+  addTarefs(inputField.value);
+  form.reset();
 }
 
-var valor = document.getElementsByClassName("name").value;
 
 function enviar(){
-  
-  alert("Você digitou: " + valor);
+ // var valor = document.getElementsByClassName("name").value; 
+ //alert("Você digitou: " + valor);
+
+
+}
